@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -19,12 +18,12 @@
       <li><a href="/view/Index.php">Home</a></li>
       <li><a href="#aboutus">Sobre</a></li>
       <li class="dropdown">Pedidos
-        <span class="fas fa-caret-down"></span>
-      </li>
         <ul id="submenu">
-					<li><a href="/view/personalizar.php">Personalizar</a></li>
+					<li><a href="/view/personalizar.php">Personalizar</a</li>
 					<li><a href="/view/pizzapronta.php">Prontas</a></li>
 				</ul>
+        <span class="fas fa-caret-down"></span>
+      </li>
       
     </ul>
   </div>
@@ -89,4 +88,3 @@
 </html>
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-

@@ -66,7 +66,7 @@ li a:hover {
 
 .dropdown {
     color: white;
-    text-decoration: none;
+    text-decoration: block;
 }
 
 .dropdown:hover {
@@ -75,19 +75,21 @@ li a:hover {
 }
 
 .dropdown:hover #submenu {
-    display: none;
+    display: block;
 }
 
 #submenu {
     padding-top: 20px;
-    padding-left: 0px;
+    padding-left: 00px;
+    display: none;
 }
 
 .dropdown ul li {
-    display: none;
+    display: block;
     margin: 0;
     padding: 0;
-    list-style: none;
+    padding-inline: 5px;
+    list-style: block;
 }
 
 .logo {
@@ -109,15 +111,19 @@ li a:hover {
     display: inline-block;
 }
 
-main #myImage {
-    padding-top: 100px;
-    padding-left: 600px;
-    max-width: 600px;
+main #lista {
+    background: rgb(231, 221, 166);
+    border-radius: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    height: 550px;
+    text-align: center;
+    width: 400px;
 }
 
-main .itens {
+main #ingrediente {
     text-align: center;
-    padding-right: 200px;
     color: #fff;
     padding-top: 0;
     padding-bottom: 0px;

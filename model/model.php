@@ -2,7 +2,7 @@
 
 class Model{
 
-   public $pizza = array();
+   public $pizzavalor = array();
    
    public $abobrinha = 3.5;
    public $bacon = 8.25;
@@ -14,7 +14,7 @@ class Model{
    public $ovo = 3.99;
    public $queijo = 6.5; 
 
-   public function calculapizza($pizza){
-        $result = array_sum($pizza);
+   public function calculapizza($pizzavalor){
+        $result = array_sum($pizzavalor);
    }
 }

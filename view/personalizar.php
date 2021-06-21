@@ -19,24 +19,32 @@
     <ul>
       <li><a href="/view/Index.php">Home</a></li>
       <li class="dropdown">Pedidos
-        <span class="fas fa-caret-down"></span>
-      </li>
         <ul id="submenu">
-					<li><a href="/view/personalizar.php">Personalizar</a></li>
+					<li><a href="/view/personalizar.php">Personalizar</a</li>
 					<li><a href="/view/pizzapronta.php">Prontas</a></li>
 				</ul>
-      
+        <span class="fas fa-caret-down"></span>
+      </li>      
     </ul>
   </div>
 </header>
 
 <main>
-  <div id= myImage>
-  <img src="/Imgs/Vazia.png" alt="">
+  <div id= lista>
+  <h1>Sabores da pizza: </h1>
+  <li></li>
   </div>
 
-<div class = "itens">
-
+<div id = "ingrediente">
+<input type="checkbox" onclick="adicionar('Abobrinha')">Abobrinha
+<input type="checkbox" onclick="adicionar('Bacon')">Bacon
+<input type="checkbox" onclick="adicionar('Brócolis')">Brócolis
+<input type="checkbox" onclick="adicionar('Calabresa')">Calabresa
+<input type="checkbox" onclick="adicionar('Catupiry')">Catupiry
+<input type="checkbox" onclick="adicionar('Cebola')">Cebola
+<input type="checkbox" onclick="adicionar('Frango')">Frango
+<input type="checkbox" onclick="adicionar('Ovo')">ovo 
+<input type="checkbox" onclick="adicionar('Ovo')">Queijo
 </div>
 </main>
 
@@ -52,4 +60,6 @@
 </body>
 </html>
 
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/personaliza.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
