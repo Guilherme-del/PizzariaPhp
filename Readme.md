@@ -3,7 +3,7 @@
 Além de baixar o fonte realizar configurações no php segue o link:
 
 https://blog.schoolofnet.com/como-instalar-o-php-no-windows-do-jeito-certo-e-usar-o-servidor-embutido/
-apos iniciar o servidor digitar no navegador
+<p>apos iniciar o servidor digitar no navegador</p>
 localhost:xxxx/Index.php
 
 <h2 align = "center"> Tecnologias utilizadas</h2>
