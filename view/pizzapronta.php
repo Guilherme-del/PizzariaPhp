@@ -30,13 +30,13 @@
 </header>
 
 <main>
-<img src="/Imgs/calabresa.png" alt=""  onclick="adicionarvalor(22)">
+<img src="/Imgs/calabresa.png" alt=""  onclick="adicionarvalor(22.00)">
 <img src="/Imgs/Frango.png" alt="" onclick="adicionarvalor(18.50)">
 <img src="/Imgs/Brocolis.png" alt="" onclick="adicionarvalor(24.20)">
 <img src="/Imgs/Light.png" alt="" onclick="adicionarvalor(14.99)">
 
 <div id= lista>
-  <h1>Valores: </h1>
+  <h1>Valores:<?php echo $dados;?> </h1>
   <li></li>
   </div>
 </main>

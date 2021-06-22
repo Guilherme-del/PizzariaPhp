@@ -2,6 +2,12 @@
 require "model/model.php";
 
 class Controller{
-        function calculapizza(){
+        public function index(){
+          $model = new Model();
+          $dados = $model->pizzavalor;
+          include "view/view.php";
+      
+        }
+      }
+
         
-        include "view/personalizar.php";
