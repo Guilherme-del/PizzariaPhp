@@ -36,10 +36,13 @@
 <img src="/Imgs/Light.png" alt="" onclick="adicionarvalor(14.99)">
 
 <div id= lista>
-  <h1>Valores:<?php echo $dados;?> </h1>
+  <h1>Valores:</h1>
   <li></li>
   </div>
 </main>
+
+
+
 
 <footer>
  <p class = "textmid">MIDIAS SOCIAIS : </p> 
