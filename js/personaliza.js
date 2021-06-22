@@ -9,21 +9,22 @@ function adicionar(array) {
 
 }
 
-
+Totais = [];
 
 function adicionarvalor(float) {
     var lista = document.getElementById("lista").innerHTML;
 
-    lista = lista + "<li>" + float + '+' + "</li>";
+    lista = lista + "<li>" + 'Valor   ' + float + "</li>";
     document.getElementById("lista").innerHTML = lista;
 
-    Totais = [];
     Totais.push(float);
-
     var sum = Totais.reduce(function(a, b) {
         return a + b;
     }, 0);
 
-    console.log(sum);
-    console.log(Totais);
+    lista = lista + "<li>" + "   Total: " + sum + '  reais   ' + "</li>";
+    document.getElementById("lista").innerHTML = lista;
+
+    //console.log(sum);
+    //console.log(Totais);
 }
