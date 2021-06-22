@@ -5,6 +5,7 @@ Além de baixar o fonte realizar configurações no php segue o link:
 https://blog.schoolofnet.com/como-instalar-o-php-no-windows-do-jeito-certo-e-usar-o-servidor-embutido/
 
 <h2 align = "center"> Tecnologias utilizadas</h2>
+<li align = "center">VS CODE</li>
 <li align = "center">MVC PHP</li>
 <li align = "center">LIB JQUERY</li>
 
