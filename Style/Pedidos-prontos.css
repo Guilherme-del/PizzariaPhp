@@ -135,7 +135,6 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-    position: fixed;
 }
 
 textarea {
@@ -144,8 +143,8 @@ textarea {
 
 p.textmid {
     color: rgba(255, 255, 255, 0.781);
-    padding-right: 5px;
-    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-bottom: 0px;
     font-family: 'Modak', cursive;
     font-size: 20px;
     text-align: right;
@@ -198,12 +197,15 @@ p.Copy {
     margin-bottom: 0.25rem;
 }
 
-.rounded-social-buttons .social-button:hover,
+
+/* .rounded-social-buttons .social-button:hover,
 .rounded-social-buttons .social-button:focus {
     -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
+    -ms-transform: rotate(360deg);        
+    transform: rotate(360deg);}*/
+
+
+/* ROTAÇAO*/
 
 .rounded-social-buttons .social-button.facebook {
     background: #3b5998;

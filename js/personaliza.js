@@ -25,4 +25,5 @@ function adicionarvalor(float) {
     }, 0);
 
     console.log(sum);
+    console.log(Totais);
 }

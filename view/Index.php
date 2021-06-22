@@ -6,6 +6,7 @@
     <title>Pizzaria hi-tech</title>
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/2821/2821801.png" type="image/x-icon">    
     <link rel="stylesheet" href="/Style/main.css">
+
 </head>
 
 <body>
@@ -79,7 +80,7 @@
  <p class = "textmid">MIDIAS SOCIAIS : </p> 
  <div class="rounded-social-buttons">
  <a class="social-button facebook" href="https://www.facebook.com/guilherme.cavenaghi/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-  <a class="social-button instagram" href="https://www.github.com/guilherme-del" target="_blank"><i class="fab fa-instagram"></i></a>                    
+  <a class="social-button instagram" href="https://www.github.com/guilherme-del" target="_blank"><i class="fab fa-instagram"></i></a>                   
 <a class="social-button linkedin" href="https://www.linkedin.com/in/guilherme-cavenaghi-589166166/" target="_blank"><i class="fab fa-linkedin"></i></a>
 <p class = "Copy"> © 2021 Criado com ❤️ por W2 Team.</p>           
 </div>
@@ -88,3 +89,4 @@
 </html>
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+

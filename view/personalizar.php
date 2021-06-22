@@ -36,15 +36,15 @@
   </div>
 
 <div id = "ingrediente">
-<input type="checkbox" onclick="adicionar('Abobrinha')">Abobrinha
-<input type="checkbox" onclick="adicionar('Bacon')">Bacon
-<input type="checkbox" onclick="adicionar('Brócolis')">Brócolis
-<input type="checkbox" onclick="adicionar('Calabresa')">Calabresa
-<input type="checkbox" onclick="adicionar('Catupiry')">Catupiry
-<input type="checkbox" onclick="adicionar('Cebola')">Cebola
-<input type="checkbox" onclick="adicionar('Frango')">Frango
-<input type="checkbox" onclick="adicionar('Ovo')">ovo 
-<input type="checkbox" onclick="adicionar('Ovo')">Queijo
+<abbr title="Abobrinha 3.5 reais"><img src="/Imgs/Abobrinha.png" onclick="adicionar('Abobrinha')"></abbr>
+<abbr title="Bacon 8.25 reais"><img src="/Imgs/bacon.png" onclick="adicionar('Bacon')"></abbr>
+<abbr title="Brocolis 5.2 reais"><img src="/Imgs/Brocolis2.png" onclick="adicionar('Brocolis')"></abbr>
+<abbr title="Calabresa 7.5 reais"><img src="/Imgs/Calabresa2.png" onclick="adicionar('Calabresa')"></abbr>
+<abbr title="Catupiry 5.5 reais"><img src="/Imgs/catupiry.png" onclick="adicionar('Catupiry')"></abbr>
+<abbr title="Cebola 4.99 reais"><img src="/Imgs/cebola.png" onclick="adicionar('Cebola')"></abbr>
+<abbr title="Frango 6.5 reais"><img src="/Imgs/frango2.png" onclick="adicionar('Frango')"></abbr>
+<abbr title="Ovo 3.99 reais"><img src="/Imgs/ovo.png" onclick="adicionar('Ovo')"></abbr>
+<abbr title="Queijo 6.5 reais"><img src="/Imgs/queijo.png" onclick="adicionar('Queijo')"></abbr>
 </div>
 </main>
 
