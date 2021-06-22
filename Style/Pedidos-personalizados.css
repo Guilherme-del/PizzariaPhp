@@ -129,6 +129,10 @@ main #ingrediente {
     padding-bottom: 0px;
 }
 
+main img {
+    cursor: pointer;
+}
+
 footer {
     background-color: #0e0d0d;
     padding-top: 8px;
